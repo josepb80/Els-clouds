@@ -8,7 +8,7 @@ Lo primer es instalar aquest .zip: https://download.owncloud.com/server/stable/o
 
 Com la versió que hi ha es 7.4 de PHP, l'hem d'actualitzar a Ubuntu 24.04.
 
-### Actualització
+# Actualització
 
 Per actualitzar-ho heu de seguir els següents pasos:
 
@@ -57,7 +57,7 @@ Reinicieu l'apache2:
 ```bash
 sudo service apache2 restart
 ```
-### Instalació
+# Instalació
 
 Ara pasarem a la part d'instalar-ho. 
 
@@ -132,54 +132,11 @@ Des d'un terminal amb un usuari sense privilegis hem de ser capaços de connecta
 mysql -u usuario -p
 ```
 
-## Extra: permetre la connexió des d'una màquina remota
-Per seguretat, MySQL no permet per defecte connexions que no siguin des de localhost. Si volem canviar aquest comportament hem de crear un altre usuari que accedirà des d'una màquina remota i estarà identificat pel nom d'usuari i la seva IP. Així doncs, poden existir diferents usuaris anomenats `usuario` que connecten des de diferents màquines.
-
-### Canviem l'accés per defecte a la nostra màquina
-Permetem l'accés des de qualsevol equip a la nostra base de dades. Editem l'arxiu `/etc/mysql/mysql.conf.d/mysqld.cnf`
-
-```console
-vim /etc/mysql/mysql.conf.d/mysqld.cnf
-```
-
-Busquem la línia següent:
-```console
-bind-address = 127.0.0.1
-```
-
-Hem de canviar el `bind-address` per `0.0.0.0` i la línia ha de quedar així:
-```console
-bind-address = 0.0.0.0
-```
-
-### Reiniciem el servidor
-```console
-systemctl restart mysql
-```
-
-### Creació d'un usuari per a accedir des d'una màquina remota
-Per accedir des d'una màquina remota, hauriem de crear un usuari nou identificat pel nom d'usuari i la IP de la màquina des de la qual accedirà.
-
-```console
-CREATE USER 'usuario'@'192.168.22.100' IDENTIFIED WITH mysql_native_password BY 'password';
-```
-
-Hem de donar privilegis a l'usuari que accedirà des de la màquina remota.
-Per accedir des de fora, hauriem de donar-li també privilegis a l'usuari a l'altra màquina:
-
-```console
-GRANT ALL ON bbdd.* to 'usuario'@'192.168.22.100';
-```
-
-```console
-exit
-```
-
 ## Descarreguem els fitxers de l'aplicació web
-Anem al directori `/var/www/html` i descomprimim allà els fitxers de l'aplicació web, heu de substituir `app-web.zip` per el nom del vostre fitxer que heu descarregat amb l'aplicació web i el nom de la carpeta `app-web` per la carpeta que us ha creat, si la vostra instal·lació de linux està en un idioma diferent al català, no tindreu la carpeta `Baixades`, modifiqueu la comanda per adaptarla a les vostrs necessitats.
+Anem al directori `/var/www/html` i descomprimim allà els fitxers de l'aplicació web, heu de substituir `owncloud.zip` per el nom del vostre fitxer que heu descarregat amb l'aplicació web i el nom de la carpeta `owncloud` per la carpeta que us ha creat, si la vostra instal·lació de linux està en un idioma diferent al català, no tindreu la carpeta `Baixades`, modifiqueu la comanda per adaptarla a les vostrs necessitats.
 
 ```console
-sudo cp ~/Baixades/app-web.zip /var/www/html
+sudo cp ~/Baixades/owncloud.zip /var/www/html
 ```
 Aneu al directori `/var/www/html`
 ```console
@@ -187,15 +144,15 @@ cd /var/www/html
 ```
 Descomprimiu el fitxer que heu baixat
 ```console
-sudo unzip app-web.zip
+sudo unzip owncloud.zip
 ```
-Copieu els fitxers a la carpeta `/var/www/html`, modifiqueu `app-web` pel nom del directori on s'ha descomprimit el vostre arxiu.
+Copieu els fitxers a la carpeta `/var/www/html`, modifiqueu `owncloud` pel nom del directori on s'ha descomprimit el vostre arxiu.
 ```console
-sudo cp -R app-web/. /var/www/html
+sudo cp -R owncloud/. /var/www/html
 ```
 Eliminem la carpeta creada quan hem fet l'`unzip`
 ```console
-sudo rm -rf app-web/
+sudo rm -rf owncloud/
 ```
 
 ## Eliminem el fitxer `index.html` de l'`apache2`
@@ -215,3 +172,4 @@ sudo chmod -R 775 .
 ```console
 sudo chown -R usuario:www-data .
 ```
+
