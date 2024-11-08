@@ -174,3 +174,4 @@ sudo chown -R usuario:www-data .
 
 Després d'acabar de fer-ho tot haureu d'entrar al link http://localhost per comprobar que ho has fet tot bé.
 
+Ara tindrás que pasar al següent apartat dins del Owncloud.
