@@ -173,3 +173,4 @@ sudo chmod -R 775 .
 sudo chown -R usuario:www-data .
 ```
 
+# Com entrar
