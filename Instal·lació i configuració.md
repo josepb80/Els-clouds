@@ -10,9 +10,7 @@ Com la versió que hi ha es 7.4 de PHP, l'hem d'actualitzar a Ubuntu 24.04.
 
 # Actualització
 
-Per actualitzar-ho heu de seguir els següents pasos:
-
-Instal·leu els requisits previs de PPA:
+Després d'instal·lar-ho haureu d'actualitzar-ho heu de posar les següents comandes a la terminal:
 ```bash
 sudo apt install software-properties-common -y
 ```
@@ -59,10 +57,9 @@ sudo service apache2 restart
 ```
 # Instalació
 
-Ara pasarem a la part d'instalar-ho. 
+Ara passarem a la part d'instal·lació, si no et funciona algunes comandes del final, pot ser que sigui pel nom "owncloud" que no a tothom el surt el mateix, llavors haureu de canviar-ho pel nom que tingui el vostre .zip o la carpeta descompresa.
 
-Per instalar-ho haureu de seguir els següents pasos:
-
+Per instal·lar-ho haureu de seguir els següents passos:
 1. Actualització de la màquina.
 ```console
 sudo apt update
