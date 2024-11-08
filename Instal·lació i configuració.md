@@ -171,3 +171,6 @@ sudo chown -R usuario:www-data .
 ```
 
 # Com entrar
+
+Després d'acabar de fer-ho tot haureu d'entrar al link http://localhost per comprobar que ho has fet tot bé.
+
