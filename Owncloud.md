@@ -9,6 +9,9 @@ La informació que heu de posar per iniciar sessió és la següent:
 * **base de dades:** bbdd
 * **domini:** localhost
 
-Com jo ja ho he fet abans, a mi em surt així:
+La primera vegada que entris et sortirà així:
 
-![The San Juan Mountains are beautiful!](Registrarse.jpg "Foto Registrarse")
+<img src="/Registrarse.jpg" width="425" height="700"/>
+
+Però quan ja has iniciat sessió et sortirà així:
+
