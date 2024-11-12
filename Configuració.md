@@ -31,7 +31,7 @@ Per entrar a l'apartat on es pot crear diferents usuaris, primer has d'anar al t
 
 ### Crear nous usuaris
 
-Per crear un usuari has de posar el nom (on he posat "usuari" com exemple) i un correu electrònic (on he posat "usuari@gmail.com" com exeple). Si vols tindre més d'un usuari, però no tens altres correus, els pots repetir. 
+Per crear un usuari has de posar el nom (*on he posat "usuari" com exemple*) i un correu electrònic (*on he posat "usuari@gmail.com" com exeple*). Si vols tindre més d'un usuari, però no tens altres correus, els pots repetir. 
 
 <img src="/Usuarios.png" width="1645" height="231" alt="Foto de usuaris"/>
 
@@ -57,10 +57,17 @@ En aquesta foto hi ha una carpeta més, aixó es perquè m'he adelantat un pas, 
 
 ## Creació d'arxius
 
-Per crear un nou arxiu, has d'anar a **Arxius**, i el botó de la creu li cliques i et sortiran les següents opcions:
+Per crear un nou arxiu, has d'anar a **Arxius**, i el botó de la creu (+) li cliques i et sortiran les següents opcions:
 
 <img src="/AgregarArxiu.png" width="428" height="212" alt="Foto de agregar un arxiu"/>
 
 Ara per exemple si vols crear una nova carpeta et posa que posis qualsevol nom que vulguis.
 
 <img src="/NomArxiu.png" width="219" height="224" alt="Foto de posar un nom"/>
+
+### Arxiu dins la carpeta
+
+Per crear un arxiu dins de la nostra carpeta, només hem de fer el mateix que hem fet abans (*Donar-li a la creu (+)*), però ara seleccionant l'**arxiu de text** i dins de la carpeta que vulguem afegir aquest arxiu.
+També pots posar-li el nom que vulguis, i si vols pot fer comandes de programació dins, només has de posar el nom de llenguatge al final i ja, per exemple *Nom.html*.
+
+I quan ja ho has creat, t'hauría de sortir dins de la carpeta.
