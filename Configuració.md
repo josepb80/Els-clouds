@@ -1,4 +1,4 @@
-# Després d'instal·lar i configurar-ho tot
+# Configuració de Owncloud
 
 ## Iniciar sessió
 
