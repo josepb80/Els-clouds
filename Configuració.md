@@ -21,7 +21,7 @@ Però quan ja has iniciat sessió et sortirà així:
 
 Quan ja has iniciat sessió i tot, et tindría que sortir així:
 
-<img src="/Owncloud.png" width="850" height="500" alt="Foto d'Owncloud"/>
+<img src="/Owncloud.png" width="1020" height="580" alt="Foto d'Owncloud"/>
 
 ## Creació d'ususaris i grups
 
@@ -68,6 +68,11 @@ Ara per exemple si vols crear una nova carpeta et posa que posis qualsevol nom q
 ### Arxiu dins la carpeta
 
 Per crear un arxiu dins de la nostra carpeta, només hem de fer el mateix que hem fet abans (*Donar-li a la creu (+)*), però ara seleccionant l'**arxiu de text** i dins de la carpeta que vulguem afegir aquest arxiu.
+
 També pots posar-li el nom que vulguis, i si vols pot fer comandes de programació dins, només has de posar el nom de llenguatge al final i ja, per exemple *Nom.html*.
 
+<img src="/ArxiuDeText.png" width="342" height="277" alt="Crear un arxiu"/>
+
 I quan ja ho has creat, t'hauría de sortir dins de la carpeta.
+
+<img src="/ArxiuText.png" width="378" height="208" alt="Veure l'arxiu creat"/>
