@@ -19,21 +19,21 @@ Però quan ja has iniciat sessió et sortirà així:
 
 # Dins d'Owncloud
 
-Quan ja has iniciat sessió i tot et tindría que sortit algo tipus així:
+Quan ja has iniciat sessió i tot, et tindría que sortir així:
 
 <img src="/Owncloud.png" width="850" height="500" alt="Foto d'Owncloud"/>
 
 ## Creació d'ususaris i grups
 
-Per entrar a l'apartat on s'ha de fer tot, primer has d'anar al teu perfil, clicar on posa "users" i allí et surt tot.
+Per entrar a l'apartat on es pot crear diferents usuaris, primer has d'anar al teu perfil, clicar on posa "users" i allí et surt tot.
 
-<img src="/EntrarUsers.png" width="100" height="150" alt="Foto de entrar a usuers"/>
+<img src="/EntrarUsers.png" width="111" height="152" alt="Foto de entrar a usuers"/>
 
-## Crear nous usuaris
+### Crear nous usuaris
 
-Per crear un usuari has de posar el nom i un correu electrònic. Si vols tindre més d'un usuari, però no tens altres correus, els pots repetir. 
+Per crear un usuari has de posar el nom (on he posat "usuari" com exemple) i un correu electrònic (on he posat "usuari@gmail.com" com exeple). Si vols tindre més d'un usuari, però no tens altres correus, els pots repetir. 
 
-<img src="/Usuarios.png" width="975" height="250" alt="Foto de usuaris"/>
+<img src="/Usuarios.png" width="1645" height="231" alt="Foto de usuaris"/>
 
 ### Crear nous grups
 
