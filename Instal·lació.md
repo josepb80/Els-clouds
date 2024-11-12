@@ -1,6 +1,6 @@
 # Instal·lació d'Owncloud 
 
-Aquesta es l'instalació i configuració de Owncloud.
+Aquesta es l'instalació i configuració d'owncloud.
 
 ## Instalació i actualització
 
@@ -174,4 +174,6 @@ sudo chown -R usuario:www-data .
 
 Després d'acabar de fer-ho tot haureu d'entrar al link http://localhost per comprobar que ho has fet tot bé.
 
-Ara tindrás que pasar al següent apartat dins del Owncloud.
+# Inici de sessió i configuració
+
+Ara comença la part d'iniciar sessió i conficurar l'[Owncloud](https://github.com/josepb80/Owncloud/blob/main/Configuraci%C3%B3.md).
