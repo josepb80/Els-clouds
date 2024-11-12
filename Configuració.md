@@ -2,7 +2,7 @@
 
 ## Iniciar sessió
 
-Si ho has fet tot bé, la primera vegada que entris et sortirà més o menys així:
+Si ho has fet tot bé, la primera vegada que entris et sortirà així:
 
 <img src="/Registrarse.jpg" width="425" height="700" alt="Foto de donde hay que poner toda la información"/>
 
@@ -25,7 +25,7 @@ Quan ja has iniciat sessió i tot, et tindría que sortir així:
 
 ## Creació d'ususaris i grups
 
-Per entrar a l'apartat on es pot crear diferents usuaris, primer has d'anar al teu perfil, clicar on posa "users" i allí et surt tot.
+Per entrar a l'apartat on es pot crear diferents usuaris, primer has d'anar al teu perfil, clicar on posa **Users** i allí et surt tot.
 
 <img src="/EntrarUsers.png" width="111" height="152" alt="Foto de entrar a usuers"/>
 
@@ -37,24 +37,30 @@ Per crear un usuari has de posar el nom (on he posat "usuari" com exemple) i un 
 
 ### Crear nous grups
 
-Per crear nous grups has de clicar on posa "Add group", allí hi pots posar qualsevol nom.
+Per crear nous grups has de clicar on posa **Add group**, allí hi pots posar qualsevol nom per al grup.
 
 <img src="/AgregarGrup.png" width="200" height="150" alt="Foto de agregar Grupo"/>
 
-Ara per posar els diferents grups a les persones, has de posar-ho on posa "grups", tal i com es veu a la foto
+Ara per posar el grup que has creat als usuaris, has de posar-ho on posa "grups", allí pots seleccionar quin grup posar a cada usuari.
 
 <img src="/PosarGrups.png" width="209" height="293" alt="Foto de agregar Grupo"/>
 
 ## Permisos a Arxius
 
-Per agregar a gent o grups dins d'un arxiu, primer has d'entrar a la seva configuració, anar a "sharing" i allí posar el nom de la persona o el grup.
+Per agregar a gent o grups dins d'un arxiu, primer has d'entrar a la seva configuració, anar a **Sharing** i allí posar el nom de la persona o el grup, també es pot configurar els permisos que vols que tinguin aquests usuaris o el grup.
 
 <img src="/Permisos.png" width="975" height="250" alt="Foto de poner permisos a usuarios"/>
 
-En aquesta foto hi ha una carpeta més perquè és el següent pas que explicaré.
-
 <img src="/PermisoGrupo.png" width="975" height="225" alt="Foto de poner permisos a un grupo"/>
+
+En aquesta foto hi ha una carpeta més, aixó es perquè m'he adelantat un pas, que es el següent.
 
 ## Creació d'arxius
 
-Per crear un 
+Per crear un nou arxiu, has d'anar a **Arxius**, i el botó de la creu li cliques i et sortiran les següents opcions:
+
+<img src="/AgregarArxiu.png" width="428" height="212" alt="Foto de agregar un arxiu"/>
+
+Ara per exemple si vols crear una nova carpeta et posa que posis qualsevol nom que vulguis.
+
+<img src="/NomArxiu.png" width="219" height="224" alt="Foto de posar un nom"/>
