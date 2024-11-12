@@ -1,4 +1,4 @@
-# Owncloud 
+# Instal·lació d'Owncloud 
 
 Aquesta es l'instalació i configuració de Owncloud.
 
