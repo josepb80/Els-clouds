@@ -23,17 +23,19 @@ Quan ja has iniciat sessió i tot et tindría que sortit algo tipus així:
 
 <img src="/Owncloud.png" width="850" height="500" alt="Foto de Owncloud"/>
 
-### Creació d'ususaris
+### Creació d'ususaris i grups
 
-Per crear un usuari has de posar el nom (jo he posat "Usuario" com exemple) i 
+Per crear un usuari has de posar el nom i un correu electrònic. Si vols tindre més d'un usuari, però no tens altres correus, els pots repetir. 
 
 <img src="/Usuarios.png" width="975" height="250" alt="Foto de "/>
 
-### Permisos a usuaris
+### Permisos a Arxius
 
 Per 
 
 <img src="/Permisos.png" width="975" height="250" alt="Foto de poner permisos a usuarios"/>
+<img src="/PermisosGrupo.png" width="975" height="250" alt="Foto de poner permisos a un grupo"/>
 
 ### Creació d'arxius
 
+### 
