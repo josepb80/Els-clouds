@@ -174,6 +174,6 @@ sudo chown -R usuario:www-data .
 
 Després d'acabar de fer-ho tot haureu d'entrar al link http://localhost per comprobar que ho has fet tot bé.
 
-# Inici de sessió i configuració
+## Inici de sessió i configuració
 
 Ara comença la part d'iniciar sessió i conficurar l'[Owncloud](https://github.com/josepb80/Owncloud/blob/main/Configuraci%C3%B3.md).
