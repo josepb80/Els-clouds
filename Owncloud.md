@@ -11,3 +11,4 @@ La informació que heu de posar per iniciar sessió és la següent:
 
 Com jo ja ho he fet abans, a mi em surt així:
 
+![The San Juan Mountains are beautiful!](Registrarse.jpg "Foto Registrarse")
