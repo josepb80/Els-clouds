@@ -43,7 +43,7 @@ Per crear nous grups has de clicar on posa "Add group", allí hi pots posar qual
 
 Ara per posar els diferents grups a les persones, has de posar-ho on posa "grups", tal i com es veu a la foto
 
-¿¿¿¿¿¿<img src="/PosarGrup.png" width="200" height="150" alt="Foto de agregar Grupo"/>
+<img src="/PosarGrups.png" width="209" height="293" alt="Foto de agregar Grupo"/>
 
 ## Permisos a Arxius
 
