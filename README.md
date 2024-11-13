@@ -100,7 +100,7 @@ sudo mysql
 
 T'haurá de sortir així:
 
-<img src="/Terminal1.pdf" width="425" height="700" alt="Foto de donde hay que poner toda la información"/>
+<img src="/Terminal1.png" width="834" height="395" alt="Foto de la terminal MySQL"/>
 
 ### Creació de la base de dades:
 Un cop dins la consola de MySQL executem les comandes per a crear la base de dades. En aquest cas estem creant una base de dades amb el nom **bbdd**.
@@ -126,6 +126,10 @@ GRANT ALL ON bbdd.* to 'usuario'@'localhost';
 exit
 ```
 
+Amb aquesta comanda tormarás al terminal normal
+
+<img src="/Terminal2.png" width="355" height="99" alt="Foto de la terminal MySQL"/>
+
 ### Probem la connexió a la base de dades
 Des d'un terminal amb un usuari sense privilegis hem de ser capaços de connectar introduïnt la nostra contrassenya.
 
@@ -137,7 +141,7 @@ mysql -u usuario -p
 Anem al directori **/var/www/html** i descomprimim allà els fitxers de l'aplicació web.
 
 ```console
-sudo cp ~/Baixades/owncloud.zip /var/www/html
+sudo cp ~/Descargas/owncloud.zip /var/www/html
 ```
 Aneu al directori **/var/www/html**
 ```console
@@ -147,6 +151,11 @@ Descomprimiu el fitxer que heu baixat
 ```console
 sudo unzip owncloud.zip
 ```
+
+Ara has fet unzip al .zip, si mires ara t'haurá de sortir la carpeta unzipeada
+
+<img src="/Carpeta_Owncloud.png" width="1000" height="300" alt="Foto de la terminal MySQL"/>
+
 Copieu els fitxers a la carpeta **/var/www/html**.
 ```console
 sudo cp -R owncloud/. /var/www/html
