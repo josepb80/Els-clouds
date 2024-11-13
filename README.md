@@ -98,6 +98,10 @@ Des d'un terminal on siguem **root** hem d'executar la següent comanda:
 sudo mysql
 ```
 
+T'haurá de sortir així:
+
+<img src="/Terminal1.pdf" width="425" height="700" alt="Foto de donde hay que poner toda la información"/>
+
 ### Creació de la base de dades:
 Un cop dins la consola de MySQL executem les comandes per a crear la base de dades. En aquest cas estem creant una base de dades amb el nom **bbdd**.
 
