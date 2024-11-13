@@ -154,7 +154,7 @@ sudo unzip owncloud.zip
 
 Ara has fet unzip al .zip, si mires ara t'haurá de sortir la carpeta unzipeada
 
-<img src="/Carpeta_Owncloud.png" width="1000" height="300" alt="Foto de la terminal MySQL"/>
+<img src="/Carpeta_Owncloud.png" width="1000" height="300" alt="Foto de la carpeta del Owncloud"/>
 
 Copieu els fitxers a la carpeta **/var/www/html**.
 ```console
@@ -182,6 +182,12 @@ sudo chmod -R 775 .
 ```console
 sudo chown -R usuario:www-data .
 ```
+
+Quan entres per primera vegada al terminal i intentes a posar una comanda, moltes vegades et posa això:
+
+<img src="/Terminal3.png" width="424" height="59" alt="Foto de terminal contraseña"/>
+
+Hauràs de posar **usuari** o **password**, si no et surt res a l'hora d'escriure la contrasenya no et preocupis, ja que si poses la contrasenya correcta i pitges enter entraràs igualment.
 
 # Com entrar
 
