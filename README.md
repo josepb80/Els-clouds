@@ -152,7 +152,7 @@ Eliminem la carpeta creada quan hem fet l'**unzip**
 sudo rm -rf owncloud/
 ```
 
-## Eliminem el fitxer `index.html` de l'`apache2`
+## Eliminem el fitxer **index.html** de l'**apache2**
 ```console
 sudo rm -rf /var/www/html/index.html
 ```
